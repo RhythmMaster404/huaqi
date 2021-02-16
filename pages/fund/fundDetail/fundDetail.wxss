@@ -1,0 +1,162 @@
+/* pages/fund/fundDetail/fundDetail.wxss */
+
+.fund-name{
+  position: relative;
+  top: 30rpx;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+  text-align: center;
+}
+
+.brief-introduction{
+  position: relative;
+  top: 60rpx;
+
+  width: fit-content;
+  border:3rpx solid #F7AA17;
+  display: inline-block;
+  border-radius: 6%;
+  color: #F7AA17;
+  padding: 5rpx 10rpx 5rpx 10rpx;
+  margin-left: 20rpx;
+}
+
+.swiper-images{
+  position: relative;
+  top: 80rpx;
+  text-align: center;
+}
+.images{
+  width: 100%;
+}
+.line{
+  width:100%;
+  height:10rpx;
+  background:#EEEEEE;
+  margin:0 auto;
+  position: relative;
+  top: 130rpx;
+}
+
+.progress{
+  position: relative;
+  top: 150rpx;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.date-describe{
+  position: relative;
+  top: 125rpx;
+  width: 90%;
+  margin:0 auto;
+}
+
+.name-date{
+  display: inline-block;
+  margin: 40rpx;
+}
+
+.name{
+  font-size: small;
+  color: #98E1D8;
+}
+
+.date{
+  font-size: small;
+  color: #98E1D8;
+}
+
+.rule{
+  position: relative;
+  top: 140rpx;
+  width: 90%;
+  margin:0 auto;
+}
+
+.rule-describe{
+  font-size: large;
+}
+
+.name-price{
+  position: relative;
+  margin: 20rpx 0 20rpx 0;
+}
+
+.rule-name{
+  display: inline-block;
+  font-size: small;
+  color: #888888;
+}
+
+.rule-price{
+  margin-left: 250rpx;
+  display: inline-block;
+  font-size: small;
+}
+
+.name-detail{
+  position: relative;
+  margin: 20rpx 0 20rpx 0;
+}
+
+.info{
+  position: relative;
+  top: 140rpx;
+  width: 90%;
+  margin:0 auto;
+  margin-bottom: 100rpx;
+}
+
+.info-describe{
+  font-size: large;
+}
+
+.info-name{
+  display: inline-block;
+  font-size: small;
+  color: #888888;
+}
+
+.info-detail{
+  margin-left: 250rpx;
+  display: inline-block;
+  font-size: small;
+}
+
+.buttom-button{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 75rpx;
+  margin: 0 auto;
+  line-height:75rpx;
+}
+
+.service{
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+  height:100%;
+  font-size: small;
+  color: #888888;
+  box-sizing: border-box;
+  border-right: 1rpx solid #EEEEEE;
+}
+
+.collect{
+  display: inline-block;
+  width: 40%;
+  text-align: center;
+  height:100%;
+  color: #2F78EB;
+}
+
+.purchase{
+  display: inline-block;
+  width: 40%;
+  text-align: center;
+  height:100%;
+  background-color: #2F78EB;
+  color: white;
+}

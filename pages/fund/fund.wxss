@@ -1,0 +1,88 @@
+/* pages/fund/fund.wxss */
+
+.top-view{
+  background-color: #2F78EB;
+  width: 100%;
+  height: 200rpx;
+}
+
+.fund-title{
+  position: relative;
+  text-align: center;
+  font-size: large;
+  color:white;
+  font-weight: 500;
+  top: 40rpx;
+}
+
+.fund-describe{
+  position: relative;
+  text-align: center;
+  font-size: small;
+  color:white;
+  font-weight: 300;
+  top: 60rpx;
+}
+
+.fund-detail{
+  position: relative;
+  top: 30rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  text-align: center;
+  font-size: small;
+  color: #888888;
+  height: 150rpx;
+}
+
+.fund-item{
+  position: relative;
+  width: 100%;
+  background-color: white;
+}
+
+.name-title{
+  position: relative;
+  margin: 0 5% 0 5%;
+  bottom: 20rpx;
+}
+
+.line{
+  position: relative;
+  width:90%;
+  height:2rpx;
+  background:#888888;
+  margin:0 auto
+}
+
+.fund-button{
+  position: relative;
+  margin: 0 5% 0 5%;
+  background-color: white;
+  height: 10%;
+}
+
+.name-number{
+  position: relative;
+  display: inline-block;
+  width: 60%;
+}
+.fund-name{
+  font-size: small;
+  left: 0;
+  margin:20rpx 0 10rpx 0;
+}
+
+.fund-number{
+  color: #888888;
+  font-size: x-small;
+  margin-bottom: 20rpx;
+}
+
+.fund-rate{
+  position: relative;
+  display: inline-block;
+  color: #D46666;
+  left: 15%;
+  bottom: 20rpx;
+}

@@ -1,0 +1,22 @@
+<!--pages/fund/fund.wxml-->
+
+<view class="top-view">
+  <view class="fund-title">新型基金</view>
+  <view class="fund-describe">专业基金经理帮你投资多种产品</view>
+</view>
+
+<view class="fund-detail">攻守兼备的投资神器，基金经理可以在不同行情下灵活调整，实现“熊市可守，牛市可攻”</view>
+
+<view class="fund-item">
+  <view class="name-title">基金产品</view>
+  <block wx:for="{{fundDetail}}">
+    <view class="line"></view>
+    <view class="fund-button" bindtap="navigateDetail" data-index="{{index}}">
+      <view class="name-number">
+        <view class="fund-name">{{item.name}}</view>
+        <view class="fund-number">{{item.number}}</view>
+      </view>
+      <view class="fund-rate">{{item.profitRate}}</view>
+    </view>
+  </block>
+</view>

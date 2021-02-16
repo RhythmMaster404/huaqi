@@ -1,0 +1,74 @@
+<!--pages/fund/fundDetail/fundDetail.wxml-->
+<view class="fund-name">{{fundName}}({{fundNumber}})</view>
+<view style="text-align:center">
+  <block wx:for="{{fundBriefIntroduction}}">
+    <view class="brief-introduction">{{item}}</view>
+  </block>
+</view>
+
+<view class="swiper-images">
+  <swiper indicator-dots="true" autoplay="true" circular="true">
+    <block wx:for="{{swiperImages}}"  wx:key="*this">
+      <swiper-item>
+        <image src="{{item}}" mode="aspectFill" class="images"></image> 
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+
+<view class="line"></view>
+
+<progress activeColor="#B3F4EC" stroke-width="3"  active="true" percent="25" class="progress"></progress>
+
+<view class="date-describe">
+  <view class="name-date">
+    <view class="name">起售</view>
+    <view class="date">{{startDate}}</view>
+  </view>
+  <view class="name-date">
+    <view class="name">截止</view>
+    <view class="date">{{endDate}}</view>
+  </view>
+  <view class="name-date">
+    <view class="name">成立日</view>
+    <view class="date">{{setUpDate}}</view>
+  </view>
+</view>
+
+<view class="line"></view>
+
+<view class="rule">
+  <view class="rule-describe">交易规则</view>
+  <view class="name-price">
+    <view class="rule-name">首笔起点金额</view>
+    <view class="rule-price">{{startPrice}} 元</view>
+  </view>
+  <view class="name-price">
+    <view class="rule-name">递增起点金额</view>
+    <view class="rule-price">{{addPrice}} 元</view>
+  </view>
+  <view class="name-price">
+    <view class="rule-name">单笔最高金额</view>
+    <view class="rule-price">{{maxPrice}} 元</view>
+  </view>
+</view>
+
+<view class="line"></view>
+
+<view class="info">
+  <view class="info-describe">产品信息</view>
+  <view class="name-detail">
+    <view class="info-name">销售地区</view>
+    <view class="info-detail">美国</view>
+  </view>
+  <view class="name-detail">
+    <view class="info-name">收益类型</view>
+    <view class="info-detail">非保本浮动收益</view>
+  </view>
+</view>
+
+<view class="buttom-button">
+  <view class="service">客服</view>
+  <view class="collect">收藏</view>
+  <view class="purchase">购买</view>
+</view>
